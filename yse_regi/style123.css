@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Orbitron', sans-serif;
+  color: #fff;
+}
+
+.container {
+  background: #111;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #0ff;
+  border: 1px solid #0ff;
+}
+
+.display {
+  background: #000;
+  color: #0ff;
+  font-size: 40px;
+  text-align: right;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #0ff;
+  box-shadow: inset 0 0 10px #0ff;
+}
+
+button {
+  background: #222;
+  color: #0ff;
+  font-size: 20px;
+  border: 2px solid #0ff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #0ff;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #0ff;
+  color: #000;
+  box-shadow: 0 0 12px #0ff;
+}
